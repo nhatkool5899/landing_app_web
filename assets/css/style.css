@@ -3161,7 +3161,7 @@ h6 {
 	background-image: url(../images/shapes/testi-circle.png);
 	background-position: center center;
 	background-repeat: no-repeat;
-	animation-name: tesiMove;
+/*	animation-name: tesiMove;*/
 	animation-duration: 5s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -3193,8 +3193,8 @@ h6 {
 
 
 #testimonials-slider-pager .testimonials-slider-pager-one .pager-item {
-	width: 71px;
-	height: 71px;
+	width: 80px;
+	height: 80px;
 	display: inline-block;
 	vertical-align: middle;
 	position: absolute;
@@ -3834,4 +3834,36 @@ h6 {
 
 .title-h3{
 	font-weight: 600 !important;
+}
+
+.pager-title{
+	position: absolute;
+    width: 100px;
+    color: #000;
+}
+.pager-title-1{
+    top: -30px;
+    left: 0px;
+}
+.pager-title-2{
+    top: 5px;
+    right: -105px;
+}
+.pager-title-3{
+    top: 20px;
+    right: -105px;
+}
+.pager-title-4{
+    top: 85px;
+    left: 0px;
+    width: 130px;
+}
+.pager-title-5{
+    top: 14px;
+    left: -105px;
+}
+
+.pager-title-6{
+    top: 5px;
+    left: -105px;
 }
