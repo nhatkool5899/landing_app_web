@@ -848,8 +848,8 @@ h6 {
 
 .banner-one__moc {
 	position: absolute;
-	bottom: 45px;
-	right: 40px;
+	bottom: 100px;
+	right: -10px;
 	animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 }
 
@@ -3661,7 +3661,7 @@ h6 {
 	margin: 0;
 	font-size: 18px;
 	font-weight: 500;
-	line-height: 1em;
+	line-height: 1.3em;
 	color: #7c7d8a;
 }
 
@@ -3834,6 +3834,17 @@ h6 {
 
 .title-h3{
 	font-weight: 600 !important;
+	text-shadow: 1px 2px #ccc;
+	line-height: 92px !important;
+}
+.title-h3 span{
+	color: #fff39c;
+}
+
+@keyframes color1{
+	0%{color: #fff}
+	50%{color: #fff39c}
+	100%{color: #e95454}
 }
 
 .pager-title{
@@ -3866,4 +3877,104 @@ h6 {
 .pager-title-6{
     top: 5px;
     left: -105px;
+}
+
+.list-banner{
+	list-style: none;
+	color: #fff;
+}
+.list-banner li{
+	height: 38px;
+}
+.list-banner li img{
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+}
+.list-banner li span{
+	color: #ffb1b1;
+	font-weight: 700;
+}
+
+
+.style-img-app{
+	background-color: #fff;
+	padding: 8px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+}
+
+.profit-title{
+	text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.profit-title p{
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #ee464b;
+	margin-bottom: 8px;
+}
+
+.profit-item{
+	padding: 20px 16px 0;
+    height: 260px;
+	background: #fff;
+	border: 1px solid #eee;
+	box-shadow: 0 0 30px #d2e1e9;
+	border-radius: 5px;
+}
+
+.profit-item .image{
+	height: 110px;
+}
+
+.profit-item .image img{
+	width: 100px;
+}
+.profit-desc{
+	position: relative;
+	text-align: center;
+	z-index: 9;
+}
+
+
+.service-item{
+	position: relative;
+	background: #fff;
+	box-shadow: -5px -5px 15px rgba(255,255,255,0.05)
+	, 5px 5px 15px rgba(0, 0, 0, 0.02)
+	, inset -5px -5px 15px rgba(255,255,255,0.05)
+	, inset 5px 5px 15px rgba(0, 0, 0, 0.02);
+	border-radius: 10px;
+	margin: 20px 0;
+	padding: 20px 20px 0;
+	height: 250px;
+}
+
+.service-item .image{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	width: 60px;
+}
+
+.service-item .image img{
+	width: 100%;
+}
+
+.service-item h4{
+	margin: 20px 0 10px;
+	color: #333;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.service-item p {
+	padding-top: 10px;
 }
