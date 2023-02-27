@@ -1,0 +1,89 @@
+#bannerMainAd {
+    position: relative;
+    background: #f0f3f6;
+    border-bottom: 1px dotted #f0f3f6;
+    text-align: center;
+}
+
+#headerMain{
+    background: #fff;
+    position: relative;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#containerMainHeader {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#ctHeader {
+    height: 54px;
+}
+
+#logoMain {
+    padding: 6px 0;
+}
+
+#menuMain {
+    margin-left: -35px;
+    position: inherit;
+    padding-right: 0;
+}
+
+#menuMain>ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-inline>li {
+    text-align: left;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.menuDefault {
+    position: relative;
+}
+
+@media screen and (max-width: 1368px){
+    #menuMain>ul>li>a {
+        padding: 17px 0;
+    }
+}
+
+#menuMain>ul>li>a {
+    cursor: pointer;
+    font-weight: 500;
+    color: #444445;
+    font-size: 14px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+
+.modal-img{
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    animation: opacity 0.4s ease-in-out;
+}
+
+@keyframes opacity {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.modal-img img{
+    height: 90%;
+}
