@@ -1281,7 +1281,6 @@ h6 {
 	position: relative;
 	top: 100px;
     left: -36px;
-    border: 1px solid #000;
 	animation: ImgBounce 10s ease-in-out 0s infinite alternate;
 }
 
